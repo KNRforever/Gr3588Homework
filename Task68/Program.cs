@@ -29,7 +29,7 @@ if(LnumM!=null&&LnumN!=null) //проверяем M и N не пустые
 			return AkkermanFunc(M - 1, AkkermanFunc(M, N - 1));
 		}
 		
-		Console.WriteLine(AkkermanFunc(M,N));
+		Console.WriteLine($"A(M,N) = {AkkermanFunc(M,N)}");
 	}
 
 
